@@ -1,1 +1,14 @@
-
+import sys
+print("simple password authentication system")
+correct_password="pythonsnake"
+attempts=3
+while attempts>0:
+    entered_password=input("Enter the password: ")
+    if entered_password==correct_password:
+        print ("access granted")
+        break
+    else:
+        attempts-=1
+        print("incorrect password.attempts left:",attempts)
+if attempts==0:
+    print("access denied")
