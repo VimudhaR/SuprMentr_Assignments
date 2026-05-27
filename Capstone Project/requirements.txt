@@ -1,0 +1,17 @@
+streamlit
+openai
+huggingface_hub
+python-dotenv
+yt-dlp
+openai-whisper
+torch
+transformers
+sentencepiece
+accelerate
+numpy
+pandas
+scikit-learn
+nltk
+tqdm
+requests
+ffmpeg-python
