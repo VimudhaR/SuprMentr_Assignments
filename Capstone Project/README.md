@@ -60,6 +60,21 @@ Before running the application, ensure the following are installed:
 - Git: https://git-scm.com/
 
 ---
+## Additional Requirement
+
+This project requires FFmpeg for audio extraction and transcription processing.
+
+### Install FFmpeg
+
+- Windows: https://www.gyan.dev/ffmpeg/builds/
+- macOS:
+  ```bash
+  brew install ffmpeg
+  ```
+- Linux:
+  ```bash
+  sudo apt install ffmpeg
+  ```
 
 # Installation Guide
 
